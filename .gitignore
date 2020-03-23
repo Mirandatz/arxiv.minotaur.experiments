@@ -1,0 +1,19 @@
+# PyCharm stuff
+.idea/
+.ipynb_checkpoints/
+
+# This directory is used to, possibly, store intermediate
+# results / products of our scripts.
+temp/
+
+# We don't want to store the uncrompressed dataset files
+# because they require >720 MB
+datasets/
+
+# We don't want to store the binaries for minotaur
+# because they require >140 MB
+minotaur/bin/
+
+# We don't want to store the algorithm outputs
+# because they require too much space
+*output*
